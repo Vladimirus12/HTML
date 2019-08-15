@@ -1,0 +1,654 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+
+body {
+   font-family: 'Montserrat', sans-serif; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 800px;
+    background-image: url(images/slider-img.jpg);
+}
+
+.header_product {
+    background-color:  #f5f5f5;
+    height: 360px;
+}
+
+.logo {
+    margin-left: 98px;
+    margin-top: 63px;
+}
+
+.menu {
+    float: right;
+    margin-right: 211px;
+    margin-top: 55px;
+}
+
+.menu li {
+    float: left;
+    list-style-type: none;
+}
+
+.menu li a {
+    font-family: Montserrat;
+    color:  #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+    text-decoration: none;
+    display: block;
+    padding: 0 15px;
+}
+
+.menu li a:hover {
+    color:  #212121;
+    border-bottom: 1px solid black;
+}
+
+ .search {
+    display: block;
+    margin-left: 1176px;
+    margin-top: -20px;
+}
+
+.text {
+    width: 458px;
+    margin-top: 288px;
+    margin-left: 98px;
+    float: left;
+}
+
+.text_ product {
+    width: 575px;
+    float: left;
+}
+
+.text h3 {
+    color:  #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.text h1 {
+    color:  #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+}
+
+.text_product h1 {
+    color:  #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    margin-top: 168px;
+    margin-left: 101px;
+}
+
+.text p {
+    color:  #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.text a {
+    display: block;
+    background:  #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    height: 45px;
+    text-decoration: none;
+    border-radius: 22px;
+    line-height: 45px;
+    color:  #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.text a:hover {
+    background:  #ffffff url('images/arrow.png') no-repeat 173px 16px;
+}
+
+.navi {
+    float: right;
+    margin-right: 623px;
+    margin-top: 651px;
+    width: 120px;
+    height: 40px;
+}
+
+.Feautured {
+    height: 609px;
+}
+
+.Feautured_ALL {
+    height: 1965px;
+}
+
+.ALL {
+    margin-top: 71px;
+    margin-left: 105px;
+    
+    float: left;
+}
+
+.ALL a {
+    display: inline-block;
+    color:  #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+     padding-left: 10px;
+    padding-right: 34px;
+    padding-bottom: 10px;
+    line-height: 35px;
+    margin-left: 0px; 
+}
+
+.ALL a:hover {
+    color:  #212121;
+    border-bottom: 2px solid black;
+}
+
+.All-1 {
+    border-bottom: 1px solid #6c6c6c;
+    font-size: 0;
+}
+
+.Feautured_New {
+    margin-top: 120px;
+    margin-left: 107px;
+    border-bottom: 1px solid #6c6c6c;
+    float: left;
+}
+
+.Feautured_New a {
+    display: inline-block;
+    font-family: Montserrat;
+    color: #6c6c6c;
+    font-size: 36px;
+    font-weight: 700;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    line-height: 45px;
+    margin-left: 0px;  
+}
+
+.Feautured_New a:hover {
+    color:  #212121;
+    border-bottom: 1px solid black;
+}
+
+.Explore {
+    float: right;
+    margin-top: 138px;
+    margin-right: 97px;
+}
+
+.Explore a {
+    display: block;
+    color:  #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    width: 190px;
+    
+}
+
+.Explore:hover {
+    background:  #ffffff url('images/arrow.png') no-repeat 179px;
+    
+}
+
+.images {
+    float: left;
+    display: block;
+    margin-top: 50px;
+    margin-left: 98px;
+}
+
+.images a {
+    text-decoration: none;
+    width: 270px;
+    height: 270px;
+    font-size: 0;
+    position: relative;
+    margin-right: 29px;
+}
+
+.images a:hover {
+    background: #ffffff url('images/product-content-hover.png') no-repeat ;
+    border-width: 1px;
+    border-color:  #9c9c9c;
+    border-style: solid;
+    background-color:  #ffffff;
+    opacity: 0.9;
+    width: 268px;
+    height: 268px;
+}
+
+.exclusive {
+    width: 1366px;
+    float: right;
+}
+
+.exclusive .chair {
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+
+.exclusive .chair .exclusive_text {
+    position: absolute;
+    width: 374px;
+    top: 228px;
+    left: 51px;
+}
+
+.exclusive .chair .exclusive_text h3 {
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.exclusive .chair .exclusive_text h1 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.exclusive .chair .exclusive_text p {
+    color: #6c6c6c;
+    font-size: 13.99px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 34px;
+}
+
+.exclusive_text a {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 45px;
+    text-decoration: none;
+    display: block;
+    background: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    height: 45px;
+    text-align: center;
+    border-radius: 22px;
+}
+
+.exclusive_text a:hover {
+    background: #ffffff url(images/arrow.png) no-repeat 173px 16px;
+}
+    
+.Trending {
+    width: 1366px;
+    height: 1108px;
+    display:block;
+    float: left;
+} 
+    
+.Trending_Products {
+ font-family: Montserrat;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    float: left;
+    margin-top: 120px;
+    margin-left: 107px; 
+}
+
+.product {
+    width: 1170px;
+    float: left;
+    display: block;
+    margin-top: 64px;
+    margin-left: 98px;
+}
+
+.product a {
+    text-decoration: none;
+    font-size: 0;
+    margin-right: 30px;
+}
+
+.product a img {
+    margin-bottom: 30px;
+}
+
+.HOT_DEAL {
+    float: left;
+    display: block;
+    width: 1366px;
+    height: 800px;
+    background: url('images/slider.jpg');  
+}
+
+.HOT {
+    color: #e53935!important;
+}
+
+.navi-1 {
+   float: right;
+    margin-right: 623px;
+    margin-top: 740px;
+    width: 120px;
+    height: 40px; 
+}
+
+.product-1 {
+    width: 1366px;
+    height: 810px;
+    float: left;
+    margin-top: 120px;
+    margin-left: 98px;
+    
+}
+
+.product-1 a {
+    margin-right: 30px;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+.product-1 a img {
+    margin-bottom: 30px;
+    font-size: 0;
+}
+
+.product-1 .product-2 {
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+
+.product-1 .product-2 .exclusive_text {
+    position: absolute;
+    width: 336px;
+    top: 186px;
+    left: 31px;
+}
+
+.product-1 .product-2 .exclusive_text h3 {
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.product-1 .product-2 .exclusive_text h1 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.product-1 .product-2 .exclusive_text p {
+    color: #6c6c6c;
+    font-size: 13.99px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 34px;
+}
+
+.MOBILE {
+    float: left;
+    display: block;
+    width: 1366px;
+    height: 516px;
+    background-image: url(images/back-img.jpg);
+}
+
+.MOBILE_text {
+    width: 475px;
+    margin-top: 125px;
+    margin-left: 99px;
+    float: left;
+}
+
+.MOBILE_text h3 {
+    color:  #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+}
+
+.MOBILE_text h1 {
+    color:  #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    text-align: left;  
+}
+
+.MOBILE_text p {
+    color:  #6c6c6c;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+}
+
+.MOBILE_text a {
+   font-size: 10;
+   text-decoration: none;
+}
+
+.MOBILE_text a img {
+   margin-top: 33px;
+   width: 135px;
+   height: 40px;
+}
+
+.footer {
+   float: left;
+   background-color:  #f7f7f7;
+   width: 1366px;
+   height: 384px;
+}
+
+.footer h3 {
+    color:  #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.footer p  {
+    color:  #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+}
+
+.footer a img {
+    margin-left: 158px;
+    margin-top: 77px;
+}
+
+.CONTACT {
+    float: left;
+    width: 1366px;
+    margin-top: 120px;
+     
+}
+
+.CONTACT_US {
+    float: left;
+    margin-left: 99px;
+    margin-right: 80px;
+    width: 221px;
+    height: 102px;
+}
+
+.INFORMATION {
+    float: inherit;
+    width: 422px;
+    height: 101px;
+}
+
+.INFORMATION >ul {
+    display: inline;
+    float: left;
+    margin-right: 57px;
+}
+
+.INFORMATION ul li {
+    list-style-type:none;
+}
+
+.INFORMATION ul li >a {
+    text-decoration: none;
+    color:  #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.TOUCH {
+    float: right;
+    margin-right: 98px;
+    width: 370px;
+    height: 147px;
+}
+
+#mail {
+    border-width: 1px;
+    border-color:  #d9dee1;
+    border-style: solid;
+    background-color:  #ffffff;
+    width: 368px;
+    height: 46px;
+    color:  #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+    padding-left:19px; 
+}
+
+.INTERIOR {
+    float: left;
+    margin-top: 77px;
+    margin-left: 98px;
+    color:  #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+}
+
+.social {
+    text-align: center
+}
+
+.Terms {
+    float: right;
+    margin-top: 77px;
+    margin-right: 98px;
+    color:  #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: right;
+}
+
+.CALIFORNIA {
+    height: 563px;
+}
+
+.CALIFORNIA h3 {
+    color:  #212121;
+    font-size: 21.91px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    transform: scaleX(1.0041);
+}
+
+.CALIFORNIA_address {
+    border-width: 1px;
+    border-color:  #9c9c9c;
+    border-style: solid;
+    background-color:  #ffffff;
+    opacity: 0.9;
+    width: 368px;
+    height: 368px;
+    display: inline-block;
+    margin-top: 71px;
+    margin-right: 30px;
+}
+
+.CALIFORNIA_address_1 {
+    border-width: 1px;
+    border-color:  #9c9c9c;
+    border-style: solid;
+    background-color:  #ffffff;
+    opacity: 0.9;
+    width: 368px;
+    height: 368px;
+    display: inline-block;
+    margin-top: 71px;
+    margin-left: 98px;
+    margin-right: 30px;
+}
+
+.address h5 {
+    color:  #6c6c6c;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20.082px;
+    text-align: center;
+}
+
+.address a {
+    color:  #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20.082px;
+    text-align: center;
+    display: block;
+}
+
+.address p {
+    color:  #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20.082px;
+    text-align: center;
+    transform: scaleX(1.0041);
+}
+
+.CALIFORNIA_address_1 a >img, .CALIFORNIA_address a >img {
+    display: block;
+    margin-left: 166px;
+    margin-top: 48px;
+    text-align: center;
+}
