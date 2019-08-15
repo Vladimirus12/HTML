@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #f8f8f8;
+}
+
+container {
+ width:  1000px;
+ height:  600px;
+ margin: 0 auto;
+ display:  block;
+ 
+}
+
+header {
+  height: 90px;
+  background-image: url( Fon/max.jpg);
+  width: 100%;
+}
+
+.buy {
+  position: relative;
+  z-index: 1;
+  color: black;
+  font-size: 135%;
+  font-weight: 700;
+  text-decoration: none;
+  padding: .25em .5em;
+  margin-left: 275px;
+}
+
+.buy:after {
+  content: "Купить";
+  position: absolute;
+  z-index: -1;
+  top: -2px;
+  bottom: -2px;
+  left: -2px;
+  width: calc(100% + 6*(1em*90/135) - 2px*2*2); 
+  text-align: right;
+  color: #fff;
+  font-size: 90%;
+  padding: .25em .5em;
+  border-radius: 5px;
+  border: 2px solid #00BFFF;
+  -webkit-transform: skewX(-10deg);
+  transform: skewX(-10deg);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(11,96,223,0.7343312324929971) 43%, rgba(0,212,255,1) 100%); no-repeat 100% 0;
+  background-size: calc(6*(1em*90/135) + .5em) 100%;
+  box-shadow: inset calc(-6*(1em*90/135) - .5em) 0 rgba(255,255,255,0);
+  transition: .3s;
+}
+
+.buy:hover:after {
+   box-shadow: inset calc(-6*(1em*90/135) - .5em) 0 rgba(255,255,255,.2);  
+}
+
+.buy:active:after {
+   background-image: linear-gradient(0deg, rgba(0,212,255,1) 0%, rgba(0,103,255,1) 98%, rgba(0,0,0,1) 100%);  
+}
+
+#content-1 {
+  border:  1px solid green;
+  padding: 4px;
+  margin: 0px 0px 20px 510px;
+}
+
+#content-2 {
+  clear: both; 
+}
+
+#content-3 {
+  clear: both;
+}
+
+.catalogue li {
+  display: inline-block; 
+  margin-bottom: 20px;
+  margin: 0 3.8% 2.992em 0;
+}
+
+img[alt="Samsung%20Devices"] {
+   position:relative;
+   right: -28px; 
+}
+
+h3 {
+    color: black;
+    background-color: #eaeaea;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    font-style: oblique;
+}
+
+#heading {
+    font-size: 14px;
+    color: #707070;
+    font-style: italic;
+    line-height: 16px;
+}
+
+#heading:first-letter {
+  font-size: 20px;
+    font-style:normal;
+    color: black;
+}
+
+#heading-new {
+   font-size: 16px;
+    color: #484343;
+    text-align: left;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+#heading-new:first-letter {
+    font-size: 20px;
+    font-style: italic;
+    color:dimgray;
+}
+
+img[alt="467885"] {
+   outline: 3px solid green;
+   float: left;
+   margin: 3px 12px 12px 0px; 
+}
+
+img[alt="467885"]:hover {
+  outline: 3px solid transparent;  
+}
+
+img[alt="maxresdefault"] {
+  outline: 3px solid green;
+  float: left;
+  margin: 3px 12px 12px 0px;
+ }
+
+img[alt="maxresdefault"]:hover {
+ outline: 3px solid transparent;   
+}
+
+.menu {
+  margin-left: -28px;
+}
+
+.menu li {
+   margin-top: 16px;
+   display: inline;
+   padding: 0 60px;
+}
+
+.menu li a {
+   color:white;
+   text-decoration: none;
+   font-size: 19px;
+}
+
+.top-menu {
+  width: 685px; 
+  height:80px;
+  float: right;
+}
+
+.top-menu ol li {
+  float: left;
+  text-align: center;
+  list-style: none;
+}
+
+.menu > li a:hover {
+  color:red; 
+}
+
+.menu > li a:active {
+  color: red;
+}
+
+.list > li > a {
+  list-style-type: none;
+  color: black;
+  text-decoration: none;
+}
+
+.list > li > a:hover {
+  color:firebrick;
+}
+
+.list > li > a:active {
+  color: red;
+}
+
+#data {
+  position: relative;
+  display: inline-block;
+  width: 10em;
+  height: 2.5em;
+  line-height: 2.2em;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px #777;
+  color: #fff;
+  outline: none;
+  border: 2px solid #0b60df;
+  border-radius: 5px;
+  box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #00008B;
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(11,96,223,0.7343312324929971) 43%, rgba(0,212,255,1) 100%);
+  cursor: pointer;
+}
+
+#data:active {
+  top: .1em;
+  left: .1em;
+  box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;  
+}
+
+#data-2 {
+  position: relative;
+  display: inline-block;
+  width: 7.3em;
+  height: 2.5em;
+  line-height: 2.2em;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px #777;
+  color: #fff;
+  outline: none;
+  border: 2px solid #F64C2B;
+  border-radius: 5px;
+  box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #800;
+  background: linear-gradient(#FB9575, #F45A38 48%, #EA1502 52%, #F02F17);
+  cursor: pointer;
+}
+
+#data-2:active {
+  top: .1em;
+  left: .1em;
+  box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+}
+
+input {
+  border: 2px solid lightgray;
+  color: green;
+  font-size: 13px;
+  font-weight: 100;
+  line-height: 16px;
+  background-color: white;
+  text-transform: capitalize
+}
+
+input:active {
+   top: .1em;
+  left: .1em;
+  box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;  
+}
+
+#mail {
+    color: black;
+    background-color: aliceblue;   
+}
+
+#regictration {
+  text-align: left;  
+}
+
+li {
+    list-style-type: none;
+    color: black;
+}
+
+table {
+  width: auto;
+  height: 795px;
+  border: 1px solid green;
+  border-collapse: collapse;
+  background-color: #eaeaea;
+}
+
+td {
+  border: 1px solid green;
+  vertical-align: top;
+  padding-left: 2px;
+}
+
+.class {
+  padding-top: 1px;
+}
+
+.one {
+   list-style-image: url(marker/bull.png);
+}
+
+.class >li {
+   font-size: 15px;
+    font-style: normal;
+    line-height: 18px;
+}
+
+ .blue {
+    text-align: center;
+}
+
+p {
+  text-align: left;
+    
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+   color:firebrick; 
+}
+
+.link:active {
+    color: red;
+}
+
+footer {
+    background-color: lightgray;
+    text-align: left;
+    height: 100px;
+    padding: 0 10px;
+}
+
+h5 {
+ text-align: right;
+}
