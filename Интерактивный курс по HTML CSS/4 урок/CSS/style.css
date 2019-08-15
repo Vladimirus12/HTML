@@ -1,0 +1,191 @@
+html {
+   background-color: #f8f8f8;
+}
+
+header {
+   background-color: cornflowerblue;
+}
+
+h3 {
+    color: black;
+    background-color: #eaeaea;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    font-style: oblique;
+}
+
+#heading {
+    font-size: 14px;
+    color: #707070;
+    font-style: italic;
+    line-height: 16px;
+}
+
+#heading:first-letter {
+  font-size: 20px;
+    font-style:normal;
+    color: black;
+}
+
+#heading-new {
+   font-size: 16px;
+    color: #484343;
+    text-align: left;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+#heading-new:first-letter {
+    font-size: 20px;
+    font-style: italic;
+    color:dimgray;
+}
+
+img[alt="467885"] {
+   outline: 3px solid green;
+}
+
+img[alt="467885"]:hover {
+  outline: 3px solid transparent;  
+}
+
+img[alt="maxresdefault"] {
+  outline: 3px solid green;  
+ }
+
+img[alt="maxresdefault"]:hover {
+ outline: 3px solid transparent;   
+}
+
+.menu {
+  margin-left: -28px;
+}
+
+.menu li {
+   margin-top: 16px;
+   display: inline;
+   padding: 0 60px;
+}
+
+.menu li a {
+   color:white;
+   text-decoration: none;
+    font-size: 19px;
+}
+
+.top-menu {
+  width: 685px; 
+  height:80px;
+  float: right;
+}
+
+.top-menu ol li {
+    float: left;
+    text-align: center;
+    list-style: none;
+}
+
+.menu > li a:hover {
+   color:firebrick; 
+}
+
+.menu > li a:active {
+    color: red;
+}
+
+.list > li > a {
+  list-style-type: none;
+    color: black;
+    text-decoration: none;
+}
+
+.list > li > a:hover {
+    color:firebrick;
+}
+
+.list > li > a:active {
+   color: red;
+}
+
+input {
+  border: 2px solid lightgray;
+    color: green;
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 16px;
+    background-color: white;
+    text-transform: capitalize;
+}
+
+#mail {
+    color: black;
+    background-color: aliceblue;   
+}
+
+#regictration {
+  text-align: left;  
+}
+
+li {
+    list-style-type: none;
+    color: black;
+}
+
+table {
+    width: 1880px;
+    height: 795px;
+  border: 1px solid green;
+    border-collapse: collapse;
+    background-color: #eaeaea;
+}
+
+td {
+  border: 1px solid green;
+  vertical-align: top;
+    padding-left: 2px;
+}
+
+.class {
+    padding-top: 1px;
+}
+
+.one {
+   list-style-image: url(marker/bull.png);
+}
+
+.class >li {
+   font-size: 15px;
+    font-style: normal;
+    line-height: 18px;
+}
+
+ .blue {
+    text-align: center;
+}
+
+p {
+  text-align: left;  
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+   color:firebrick; 
+}
+
+.link:active {
+    color: red;
+}
+
+footer {
+    background-color: lightgray;
+    text-align: left;
+}
